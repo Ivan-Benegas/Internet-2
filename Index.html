@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
+  <title>Lista Productos</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
   <script src="js/jQuery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/data.js"></script>
@@ -16,20 +16,20 @@
 <body>
   <div class="row">
     <span class="col-3">
-      <input type="text" id="1">
-      <button type="button" id="action1"></button>
+      <input type="text" id="BrandInput">
+      <button type="button" id="action1">Buscar Brand</button>
     </span>
     <span class="col-3">
-      <input type="text" id="2">
-      <button type="button" id="action2"></button>
+      <input type="text" id="LocationInput">
+      <button type="button" id="action2">Buscar Location</button>
     </span>
     <span class="col-3">
-      <input type="text" id="3">
-      <button type="button" id="action3"></button>
+      <input type="text" id="LaunchInput">
+      <button type="button" id="action3">Buscar Launch</button>
     </span>
     <span class="col-3">
-      <input type="text" id="4">
-      <button type="button" id="action4"></button>
+      <input type="text" id="PriceInput">
+      <button type="button" id="action4">Buscar Price</button>
     </span>
   </div>
   <div class="table-wrapper">
@@ -37,17 +37,17 @@
       <span class="col-2">
         <strong></strong>
       </span>
-      <span class="col-2"><b>Brand</b>
-        <strong></strong>
+      <span class="col-2">
+        <strong>Brand</strong>
       </span>
-      <span class="col-2"><b>Location</b>
-        <strong></strong>
+      <span class="col-2">
+        <strong>Location</strong>
       </span>
-      <span class="col-2"><b>Lunch</b>
-        <strong></strong>
+      <span class="col-2">
+        <strong>Launch</strong>
       </span>
-      <span class="col-2"><b>Price</b>
-        <strong></strong>
+      <span class="col-2">
+        <strong>Price</strong>
       </span>
       <span class="col-2">
         <strong></strong>
@@ -55,15 +55,6 @@
     </div>
 
     <div id="table-body">
-      <div class="row">
-        <span class="col-2"></span>
-        <span class="col-2"></span>
-        <span class="col-2"></span>
-        <span class="col-2"></span>
-        <span class="col-2"></span>
-        <span class="col-2"></span>
-        <span class="description col-12"></span>
-      </div>
     </div>
   </div>
 
